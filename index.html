@@ -46,7 +46,7 @@
                         </a>
                         <a href="#" class="icon__links">
                             <svg width="24" height="24" fill="none">
-                                <use xlink:href="img/icon/icon.svg#info"></use>
+                                <use xlink:href="img/icon/headerIcon/icon.svg#info"></use>
                             </svg>
                         </a>
                         <a href="#" class="icon__links">
@@ -63,7 +63,7 @@
         </header>
         <!-- /.header -->
         <main class="main">
-            <section>
+            <section class="section">
                 <div class="main__sidebar">
                     <div class="user__sidebar">
                         <img class="user__avatar" src="img/userAvatar.png" alt="Avatar">
@@ -101,8 +101,8 @@
                     <!-- /.main__nav -->
                     <div class="shortcuts__sidebar">
                         <nav class="nav__group">
-                            <span>Shortcuts</span>
-                            <li>
+                            <span class="span__nav">Shortcuts</span>
+                            <li class="one__li">
                                 <a href="#" class="nav__link">
                                     <svg width="24" height="24" fill="none">
                                         <use xlink:href="img/icon/mainIcon/icon.svg#loot"></use>
@@ -139,8 +139,8 @@
                     <!-- /.shortcuts__sidebar -->
                     <div class="explore__sidebar">
                         <nav class="nav__group">
-                            <span>Explore</span>
-                            <li>
+                            <span class="span__nav">Explore</span>
+                            <li class="one__li">
                                 <a href="#" class="nav__link">
                                     <svg width="24" height="24" fill="none">
                                         <use xlink:href="img/icon/mainIcon/icon.svg#flag"></use>
@@ -173,11 +173,11 @@
                                 </a>
                             </li>
                             <li>
-                                <a href="#" class="nav__link">
-                                    <svg width="16" height="16" fill="none">
+                                <a href="#" class="nav__links">
+                                    <svg class="svg__more" width="16" height="16" fill="black">
                                         <use xlink:href="img/icon/mainIcon/icon.svg#caretDown"></use>
                                     </svg>
-                                    <span class="link__span class=link__span">See more...</span>
+                                    <span class="link__span more">See more...</span>
                                 </a>
                             </li>
                         </nav>
@@ -187,11 +187,38 @@
                 <!-- /.main__sidebar -->
                 <div class="main__menu">
                     <div class="create__post__menu">
-
+                        <div class="header__create">
+                            <h4>Create post</h4>
+                        </div>
+                        <!-- /.header__create -->
+                        <div class="body__create">
+                            <img src="./img/userAvatar.png" alt="Avatar">
+                            <div class="create__input" contenteditable="true">
+                                What’s on your mind, Mateusz?
+                            </div>
+                            <!-- /.create-input -->
+                        </div>
+                        <!-- /.body__create -->
+                        <div class="footer__create">
+                            <button class="footer__button photo">
+                                <span>Photo/Video</span>
+                            </button>
+                            <button class="footer__button friends">
+                                <span>Tag friends</span>
+                            </button>
+                            <button class="footer__button feeling">
+                                <span>Feeling/Activ...</span>
+                            </button>
+                            <button class="footer__button dot"></button>
+                        </div>
+                        <!-- /.footer__create -->
                     </div>
                     <!-- /.create__post__menu -->
                     <div class="post__menu">
+                        <div class="post__header">
 
+                        </div>
+                        <!-- /.post__header -->
                     </div>
                     <!-- /.post__menu -->
                     <div class="notif__main">
