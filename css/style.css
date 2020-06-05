@@ -17,6 +17,16 @@ h4{
     color: #595959;
     margin: 0;
 }
+img{
+    border-radius: 50%;
+    object-fit: cover;
+}
+p{
+    font-family: SF Pro Display;
+    font-size: 14px;
+    line-height: 22px;
+    color: #595959;
+}
 .container {
     border: 1px solid red;
 }
@@ -57,10 +67,13 @@ h4{
     align-items: center;
 }
 .user__avatar{
+    width: 2rem;
+    height: 2rem;
     margin-right: 0.5rem;
     padding-top: 0.25rem;
 }
 .user__name{
+    margin-left: 10px;
     font-weight: 600;
     font-family: SF Pro Display;
     font-size: 1em;
@@ -208,8 +221,8 @@ h4{
     margin-top: 0.625rem;
 }
 .main__menu{
-    width: 588px;
-    height: 1366px;
+    width: 36.75rem;
+    height: 87.5rem;
 }
 .create__post__menu{
     background: #FFFFFF;
@@ -232,9 +245,15 @@ h4{
     border: 1px solid #E8E8E8;
     font-weight: 600;
 }
+.body__create > img{
+    width: 40px;
+    height: 40px;
+}
 .create__input{
+    margin-top: 0.5rem;
     margin-left: 1rem;
-    width: 100%;
+    width: 31.375rem;
+    word-wrap: break-word;
 }
 .footer__create{
     height: 5.2rem;
@@ -249,8 +268,8 @@ h4{
     background: #F5F5F5;
     border-radius: 48px;
     border: 1px solid #F5F5F5;
-    width: 134px;
-    height: 40px;
+    width: 8.375rem;
+    height: 2.5rem;
     font-family: SF Pro Display;
     font-weight: 600;
     color: #595959;
@@ -258,6 +277,92 @@ h4{
 .dot{
     width: 48px;
     height: 40px;
+}
+.post__menu{
+    padding: 1rem 0 0 1rem;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    color: #595959
+}
+.post__header{
+    display: flex;
+    align-items: flex-start;
+}
+.post__info{
+    margin-left: 0.75rem;
+}
+.post__info > div{
+    display: flex;
+    align-items: center;
+    color: #8C8C8C;
+}
+.post__info > h4{
+    padding-top: 0.3rem;
+    font-weight: bold;
+    font-family: SF Pro Display;
+    font-size: 14px;
+    line-height: 22px;
+    color: #0050B3;
+}
+.span__info{
+    margin: 0 0.25rem 0 0.25rem;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50%;
+    width: 4px;
+    height: 4px;
+    background: #BFBFBF;
+}
+.post__content > img{
+    border: 1px solid #FFFFFF;
+    border-radius: 10px;
+    object-fit: none;
+}
+.post__content > p {
+    font-family: SF Pro Display;
+    font-size: 14px;
+    line-height: 22px;
+    color: #595959;
+}
+.post__content > p > a{
+    color: #096DD9;
+    text-decoration: underline;
+}
+.post__like{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.post__like > p{
+    margin: 9px 4px 9px 0;
+    padding-top: 4px;
+}
+.stories__img{
+    width: 300px;
+    height: 400px;
+}
+.post__footer > div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.post__button{
+    margin: 1rem 4rem 1rem 4rem;
+    width: 58px;
+    height: 24px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    color: #595959;
+    font-family: SF Pro Display;
+    font-size: 14px;
+    line-height: 22px;
+    background: #FFFFFF;
+    border: 1px solid #FFFFFF;
+}
+.post__button > img{
+    padding-right: 0.6rem;
 }
 
 

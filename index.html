@@ -2,8 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Distanse</title>
     <link rel="stylesheet" href="css/normalize.css">
@@ -19,7 +18,7 @@
                 <!-- /.search -->
                 <div class="navigation">
                     <div class="user__panel">
-                        <img class="user__avatar" src="img/userAvatar.png" alt="Avatar">
+                        <img src="img/Avatar.svg" alt="Avatar" width="40px" height="40px">
                         <span class="user__name">Mateusz</span>
                     </div>
                     <!-- /.user__pan -->
@@ -66,7 +65,7 @@
             <section class="section">
                 <div class="main__sidebar">
                     <div class="user__sidebar">
-                        <img class="user__avatar" src="img/userAvatar.png" alt="Avatar">
+                        <img class="user__avatar" src="img/Avatar.svg" alt="Avatar">
                         <span class="user__name">Mateusz Wierzbicki</span>
                     </div>
                     <!-- /.user__sidebar -->
@@ -192,7 +191,7 @@
                         </div>
                         <!-- /.header__create -->
                         <div class="body__create">
-                            <img src="./img/userAvatar.png" alt="Avatar">
+                            <img src="./img/Avatar.svg" alt="Avatar">
                             <div class="create__input" contenteditable="true">
                                 What’s on your mind, Mateusz?
                             </div>
@@ -216,9 +215,42 @@
                     <!-- /.create__post__menu -->
                     <div class="post__menu">
                         <div class="post__header">
-
+                            <img class="img__post" src="./img/Avatar.svg" alt="Avatar" width="48px" height="48px">
+                            <div class="post__info">
+                                <h4>Mateusz Wierzbicki</h4>
+                                <div>
+                                    <span>3 hrs</span>
+                                    <div class="span__info"></div>
+                                    <img src="./img/icon/headerIcon/setting.svg" alt="setting">
+                                </div>
+                            </div>
+                            <!-- /.post__info -->
                         </div>
                         <!-- /.post__header -->
+                        <div class="post__content">
+                            <p>
+                                Did you know that all of this was made using only components and styles from Ant Desing System for Figma?
+                                <br>
+                                <br>
+                                Learn more: <a>https://antforfigma.com</a>
+                            </p>
+                            <img src="./img/IMG.png" alt="img">
+                        </div>
+                        <!-- /.post__content -->
+                        <div class="post__like">
+                            <img src="./img/icon/headerIcon/like.svg" alt="Like">
+                            <p>23</p>
+                        </div>
+                        <!-- /.post__like -->
+                        <div style="border: 1px solid #E8E8E8; width: 556px;"></div>
+                        <div class="post__footer">
+                            <div>
+                                <button class="post__button"><img src="./img/icon/headerIcon/Biglike.svg" alt="Biglike">Like</button>
+                                <button class="post__button"><img src="./img/icon/headerIcon/comment.svg" alt="comment">Comment</button>
+                                <button class="post__button"><img src="./img/icon/headerIcon/Vector.svg" alt="Vector">Share</button>
+                            </div>
+                        </div>
+                        <!-- /.post__footer -->
                     </div>
                     <!-- /.post__menu -->
                     <div class="notif__main">
@@ -229,15 +261,93 @@
                 <!-- /.main__menu -->
                 <div class="main__sidebar__right">
                     <div class="stories__sidebar">
+                        <div class="stories__header">
+                            <p>Stories</p>
+                            <div class="stories__arhive">
+                                <img src="" alt="">
+                                <a href="#" class="arhive">Arhive</a>
+                                <a href="#" class="arhive">Setting</a>
+                            </div>
+                            <!-- /.stories__arhive -->
+                        </div>
+                        <!-- /.stories__header -->
+                        <div class="stories__main">
+                            <img src="./img/stories.svg" alt="Stories">
+                            <div class="stories__info">
 
+                            </div>
+                            <!-- /.stories__info -->
+                            <img src="./img/stories1.svg" alt="Stories">
+                            <div class="stories__info">
+
+                            </div>
+                            <!-- /.stories__info -->
+                            <img src="./img/stories2.svg" alt="Stories">
+                            <div class="stories__info">
+
+                            </div>
+                            <!-- /.stories__info -->
+                            <img src="./img/stories3.svg" alt="Stories">
+                            <div class="stories__info">
+
+                            </div>
+                            <!-- /.stories__info -->
+                        </div>
+                        <!-- /.stories__main -->
+                        <div class="stories__footer">
+                            <img src="./img/icon/headerIcon/caret-down.svg" alt="Caret">
+                            <a href="#">See more...</a>
+                        </div>
+                        <!-- /.stories__footer -->
                     </div>
                     <!-- /.stories__sidebar -->
                     <div class="happyb__sidebar">
-
+                        <img src="./img/icon/headerIcon/gift.svg" alt="Gift">
+                        <p><span>John Doe's birthday is today</span></p>
                     </div>
                     <!-- /.happyb__sidebar -->
                     <div class="page__sidebar">
+                        <div class="page__header">
+                            <p>Your page</p>
+                            <button></button>
+                        </div>
+                        <!-- /.page__header -->
+                        <div class="page__main">
+                            <img src="./img/stories1.svg" alt="stories">
+                            <div class="page__text">
+                                <p>Concuria</p>
+                                <div>
+                                    <img src="./img/icon/headerIcon/message1.svg" alt="Messages">
+                                    <p>Messages</p>
+                                </div>
+                                <div>
+                                    <img src="./img/icon/headerIcon/bell1.svg" alt="Bell">
+                                    <p>Notifications</p>
+                                </div>
+                            </div>
+                            <!-- /.page__text -->
+                        </div>
+                        <!-- /.page__main -->
+                        <div class="page__footer">
+                            <div class="footer__but">
+                                <button class="button__page">
 
+                                </button>
+                                <button class="button__page">
+
+                                </button>
+                                <button class="button__page">
+
+                                </button>
+                                <div class="footer__stat">
+                                    <p>262</p>
+                                    <p>5 likes this week</p>
+                                </div>
+                                <!-- /.footer__stat -->
+                            </div>
+                            <!-- /.footer__but -->
+                        </div>
+                        <!-- /.page__footer -->
                     </div>
                     <!-- /.page__sidebar -->
                 </div>
